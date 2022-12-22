@@ -55,9 +55,9 @@ ul {
     overflow: hidden;
 }
 
-@media (max-height: 620px) {
+@media (max-height: 700px) {
     .page {
-        min-height: 620px;
+        min-height: 700px;
         height: auto;
     }
 }
@@ -2136,15 +2136,15 @@ ul {
     color: #121212;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 575.98px) {
     .content__title {
-        font-size: 27px;
+        font-size: 25px;
     }
 }
 
 @media (max-width: 330px) {
     .content__title {
-        font-size: 24px;
+        font-size: 21px;
     }
 }
 
@@ -3274,5 +3274,12 @@ button.swiper-pagination-bullet {
 
     .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
         bottom: -40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .swiper-button-prev,
+  .swiper-button-next {
+        display: none;
     }
 }
